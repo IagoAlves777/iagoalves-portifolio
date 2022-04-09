@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar/index"
 import AboutPage from "./pages/AboutPage";
 import BlogPage from "./pages/BlogPage";
 import ContactPage from "./pages/ContactPage";
@@ -19,10 +19,6 @@ function App() {
     <>
       <Navbar />
       <HomePage />
-      <AboutPage />
-      <FeaturedProjects />
-      <BlogPage />
-      <ContactPage />
     </>
   );
 }

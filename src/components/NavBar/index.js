@@ -1,10 +1,11 @@
 import { useState } from 'react';
 
-import Button from './Button';
-import Logo from './Logo';
+import Button from "../Button"
+import Logo from '../Logo';
 import NavLinks from './NavLinks';
-import bars from '../img/bars-solid.svg';
-import times from '../img/times-solid.svg';
+import bars from '../../img/bars-solid.svg';
+import times from '../../img/times-solid.svg';
+import "./style.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
