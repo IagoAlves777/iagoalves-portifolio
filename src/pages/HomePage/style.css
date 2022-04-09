@@ -1,0 +1,73 @@
+/* Home Page */
+.homePage {
+  margin-top: 68px;
+  justify-content: flex-start;
+}
+
+.homePage h3 {
+  color: #b9bacc;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* ******************* */
+
+/* About Page */
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  justify-content: start;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.technologies p {
+  margin-right: 12px;
+}
+
+.single-technology {
+  display: flex;
+  align-items: center;
+}
+
+.single-technology img {
+  width: 5px;
+  margin-right: 2px;
+}
+
+.single-technology p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 13px;
+}
+
+/* ******************* */
+
+/* Projects */
+.projects > img {
+  width: 50px;
+}
+
+.featured-project {
+  margin-bottom: 2rem;
+}
+
+.featured-project h3 {
+  color: #98ffd7;
+  font-size: 18px;
+}
+
+.project-social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-social img {
+  width: 20px;
+}
+
+@media only screen and (min-width: 600px){
+  
+}
+
+/* ****************** */
