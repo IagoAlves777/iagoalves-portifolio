@@ -18,21 +18,22 @@ const HomePage = () => {
 
   return (
     <section>
-      <div className="section-main">
+      <div className="section-main" data-aos="zoom-in"
+          data-aos-duration="2500">
         <div
           className="section-astronauta"
           data-aos="zoom-in"
-          data-aos-duration="1500"
+          data-aos-duration="2500"
         >
           <div className="container">
             <div className="astronauta" ref={container}></div>
           </div>
         </div>
-        <div className="section-title">
-          <h2 data-aos="zoom-in" data-aos-duration="1500">
+        <div className="section_title">
+          <h2 data-aos="zoom-in" data-aos-duration="2500">
             Iago Alves
           </h2>
-          <h3 data-aos="zoom-in" data-aos-duration="2000">
+          <h3 data-aos="zoom-in" data-aos-duration="2500">
             Desenvolvedor Fullstack
           </h3>
         </div>
