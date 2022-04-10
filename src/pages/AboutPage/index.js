@@ -21,48 +21,49 @@ const AboutPage = () => {
   return (
     <section className="about-page" id="about">
       <div className="section_center">
-        <div className="section-div">
-          <h2
-            className="section-title"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-          >
-            Quem sou eu
-          </h2>
-        </div>
         <div className="section-content">
-          <div className="section-img">
-            
-            <p className="section-text">
-              Apaixonado por tecnologia desde que era só uma criança, durante o
-              ensino médio descobri o que era programação e me encantei com esse
-              gigantesco universo. Durante a faculdade tentei desenvolver várias
-              coisas em várias linguagens diferentes, mas foi nas linguagens web
-              que me encontrei. hoje em dia trabalho e estudo cada vez mais para
-              que eu possa me desenvolver cada vez mais como um dev fullstack.
-              <br />
-              Essas são as principais tecnologias que tenho trabalhado:
-            </p>
-            <div className="foguete" ref={container}></div>
+          <div className="section_c">
+            <h2
+              className="section-title"
+              data-aos="zoom-in"
+              data-aos-duration="2500"
+            >
+              Quem sou eu
+            </h2>
+            <div className="section-img">
+              <p className="section-text" data-aos="zoom-in"
+              data-aos-duration="1000">
+                Apaixonado por tecnologia desde que era criança, durante
+                o ensino médio descobri o que era programação e me encantei com
+                esse gigantesco universo. Durante a faculdade tentei desenvolver
+                várias coisas em várias linguagens diferentes, mas foi nas
+                tecnologias web que me encontrei. Hoje em dia trabalho e estudo
+                cada vez mais para que eu possa me desenvolver da melhor forma
+                como um dev fullstack.
+                <br />
+                Essas são as principais tecnologias que tenho trabalhado:
+              </p>
+              <div className="technologies">
+                <div className="single-technology">
+                  <img src={caretright} alt="" />
+                  <p>React</p>
+                </div>
+                <div className="single-technology">
+                  <img src={caretright} alt="" />
+                  <p>Node JS</p>
+                </div>
+                <div className="single-technology">
+                  <img src={caretright} alt="" />
+                  <p>TypeScript</p>
+                </div>
+                <div className="single-technology">
+                  <img src={caretright} alt="" />
+                  <p>SQL</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="technologies">
-            <div className="single-technology">
-              <img src={caretright} alt="" />
-              <p>React</p>
-            </div>
-            <div className="single-technology">
-              <img src={caretright} alt="" />
-              <p>Node JS</p>
-            </div>
-            <div className="single-technology">
-              <img src={caretright} alt="" />
-              <p>TypeScript</p>
-            </div>
-            <div className="single-technology">
-              <img src={caretright} alt="" />
-              <p>SQL</p>
-            </div>
-          </div>
+          <div className="foguete" ref={container} data-aos="fade-up-left" data-aos-duration="3000"></div>
         </div>
       </div>
     </section>

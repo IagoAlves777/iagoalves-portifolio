@@ -17,7 +17,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <section>
+    <section id='home'>
       <div className="section-main" data-aos="zoom-in"
           data-aos-duration="2500">
         <div
