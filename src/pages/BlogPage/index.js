@@ -1,6 +1,6 @@
-import react from '../img/react-brands.svg';
-import nodejs from '../img/node-js-brands.svg';
-import user from '../img/user-circle-solid.svg';
+import react from "../../img/react-brands.svg"
+import nodejs from "../../img/node-js-brands.svg"
+import user from "../../img/user-circle-solid.svg"
 
 const BlogPage = () => {
   return (

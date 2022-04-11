@@ -51,6 +51,21 @@ h3 {
 
 @media only screen and (min-width: 600px){
 
+  .section-main{
+    padding: 0;
+    margin: 0;
+  }
+
+  .container{
+    height: 250px;
+    width: 300px;
+  }
+
+  .section-astronauta{
+    padding-right: 200px;
+    padding-top: 70px;
+  }
+
   .homePage {
     padding-top: 0;
   }

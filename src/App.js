@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./App.css";
 import Navbar from "./components/NavBar/index"
 import AboutPage from "./pages/AboutPage/index";
-import BlogPage from "./pages/BlogPage";
+import BlogPage from "./pages/BlogPage/index";
 import ContactPage from "./pages/ContactPage";
 import FeaturedProjects from "./pages/FeaturedProjects";
 import HomePage from "./pages/HomePage/index";
@@ -19,7 +19,8 @@ function App() {
     <>
       <Navbar />
       <HomePage />
-      <AboutPage/>
+      <AboutPage/> 
+      
     </>
   );
 }

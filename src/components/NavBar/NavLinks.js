@@ -5,16 +5,13 @@ const NavLinks = ({ className }) => {
         <a href='#home'>Home</a>
       </li>
       <li>
-        <a href='#about'>About</a>
+        <a href='#about'>Quem sou eu</a>
       </li>
       <li>
-        <a href='#projects'>Projects</a>
+        <a href='#projects'>Projetos</a>
       </li>
       <li>
-        <a href='#blog'>Blog</a>
-      </li>
-      <li>
-        <a href='#contact'>Contact</a>
+        <a href='#contact'>Contato</a>
       </li>
     </ul>
   );
