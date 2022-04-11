@@ -1,0 +1,31 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85vw;
+}
+
+.contact-form input {
+  margin-bottom: 1rem;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+  .contact .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.5rem;
+    width: 50%;
+    margin: 0.5rem auto 1rem auto;
+  }
+}

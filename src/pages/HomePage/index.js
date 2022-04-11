@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Lottie from "lottie-web";
 import animate from "lottie-web";
-import "./style.css";
+import "./styles.css";
 const HomePage = () => {
   const container = useRef(null);
 

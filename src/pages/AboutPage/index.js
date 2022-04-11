@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Lottie from "lottie-web";
 import animate from "lottie-web";
 import caretright from "../../img/caret-right-solid.svg";
-import "./style.css";
+import "./styles.css";
 
 const AboutPage = () => {
   const container = useRef(null);
@@ -30,9 +30,9 @@ const AboutPage = () => {
             >
               Quem sou eu
             </h2>
-            <div className="section-img">
-              <p className="section-text" data-aos="zoom-in"
-              data-aos-duration="1000">
+            <div className="section-img" data-aos="zoom-in"
+              data-aos-duration="1500">
+              <p className="section-text" >
                 Apaixonado por tecnologia desde que era criança, durante
                 o ensino médio descobri o que era programação e me encantei com
                 esse gigantesco universo. Durante a faculdade tentei desenvolver
@@ -43,7 +43,7 @@ const AboutPage = () => {
                 <br />
                 Essas são as principais tecnologias que tenho trabalhado:
               </p>
-              <div className="technologies">
+              <div className="technologies" >
                 <div className="single-technology">
                   <img src={caretright} alt="" />
                   <p>React</p>
