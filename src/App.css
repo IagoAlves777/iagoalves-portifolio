@@ -144,10 +144,6 @@ section {
     justify-content: center;
   }
 
-  .navbar {
-    padding: 1rem 2rem;
-  }
-
   .navLinks {
     max-width: 1000px;
     position: relative;
