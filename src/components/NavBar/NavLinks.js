@@ -11,7 +11,7 @@ const NavLinks = ({ className }) => {
         <a href='#projects'>Projetos</a>
       </li>
       <li>
-        <a href='#contact'>Contatos</a>
+        <a href='#contact'>Contato</a>
       </li>
     </ul>
   );

@@ -38,7 +38,6 @@ a {
 
 section {
   /* width: 100vw; */
-  height: 110vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,11 +139,8 @@ section {
 
 /* Media Query */
 
-
-
-@media only screen and (min-width: 826px) {
+@media only screen and (min-width: 769px) {
   body {
-    display: flex;
     justify-content: center;
   }
 
@@ -156,7 +152,6 @@ section {
     flex-direction: row;
     justify-content: end;
     height: auto;
-    max-width: 80%;
     top: 0;
   }
 
@@ -169,6 +164,7 @@ section {
   }
 
   section {
+    height: 100vh;
     align-items: center;
     justify-content: center;
   }

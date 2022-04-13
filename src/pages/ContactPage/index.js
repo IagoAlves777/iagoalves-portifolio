@@ -30,7 +30,7 @@ const ContactPage = () => {
           <div className="astronauta-img" ref={container}></div>
         </div>
 
-        <h2 className="section-title">Contatos</h2>
+        <h2 className="section-title">Contact</h2>
         <div className="section-content">
           <p>Caso tenha interesse em entrar em contato comigo</p>{" "}
           <p>Aqui estão mais informações sobre mim:</p>
