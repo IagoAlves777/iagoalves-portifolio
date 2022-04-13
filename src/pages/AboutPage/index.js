@@ -7,6 +7,7 @@ import "./styles.css";
 const AboutPage = () => {
   const container = useRef(null);
 
+  
   useEffect(() => {
     Lottie.loadAnimation({
       container: container.current,
