@@ -139,7 +139,7 @@ section {
 
 /* Media Query */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 769px) {
   body {
     justify-content: center;
   }

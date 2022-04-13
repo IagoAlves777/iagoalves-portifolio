@@ -17,10 +17,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <HomePage />
+      {/*<HomePage />
       <AboutPage/> 
       <FeaturedProjects/>
-      <ContactPage/>
+      <ContactPage/> */}
     </>
   );
 }
