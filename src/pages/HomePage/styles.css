@@ -44,15 +44,11 @@ h3 {
   width: 400px;
 }
 
-<<<<<<< HEAD
-@media (min-width: 320px) and (max-width: 480px){
-=======
 @media(min-width: 1250){
   
 }
 
 @media only screen and (min-width: 600px){
->>>>>>> 3c6f3c38869b61a83b33b6fb5c4fa575894fd43e
 
 }
 
