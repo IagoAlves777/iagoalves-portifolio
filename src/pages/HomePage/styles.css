@@ -23,9 +23,10 @@ h3 {
 .section-main{
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   margin-top: 150px;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding-top: 100px;
   padding-right: 110px;
   background-image: url("../../img/bg-effects.png");
@@ -43,7 +44,15 @@ h3 {
   width: 400px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 320px) and (max-width: 480px){
+=======
+@media(min-width: 1250){
+  
+}
+
+@media only screen and (min-width: 600px){
+>>>>>>> 3c6f3c38869b61a83b33b6fb5c4fa575894fd43e
 
 }
 
@@ -65,7 +74,6 @@ h3 {
   .section-astronauta{
     padding-right: 180px;
     padding-top: 160px;
-    margin-bottom: 100px;
   }
 
   .homePage {

@@ -117,7 +117,8 @@
   border: none;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 826px) {
+
   .navLinks {
     max-width: 1000px;
     position: relative;
