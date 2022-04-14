@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <Logo />
-      <NavLinks className={isMenuOpen ? 'open' : 'close'} />
+      <NavLinks className={isMenuOpen ? 'open' : 'close'} toggleMenu= {toggleMenu}/>
       <Button className='toggle' onClick={toggleMenu}>
         <img src={!isMenuOpen ? bars : times} alt='' />
       </Button>

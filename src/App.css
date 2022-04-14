@@ -21,6 +21,7 @@ body {
   background-color: rgb(18, 18, 18);
   color: #d2d4ed;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 li {
@@ -193,12 +194,6 @@ section {
   .about-page .technologies {
     justify-content: left;
   }
-
-  .about-page .section-text {
-    font-size: 20px;
-  }
-
-
 
   .section-content {
     align-items: center;

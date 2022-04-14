@@ -43,13 +43,14 @@ h3 {
   width: 400px;
 }
 
+
 @media (min-width: 320px) and (max-width: 480px){
   .section-main{
     display: flex;
     height: 80vh;
     padding: 0;
     margin-top: 10%;
-    justify-content: space-between;
+    justify-content: space-around;
     background-image: url("../../img/bg-effects-480.png");
     background-position: right;
   }
@@ -72,6 +73,7 @@ h3 {
 }
 
 @media (min-width: 481px) and (max-width: 768px){
+  
   .section-main{
     display: flex;
     height: 80vh;
@@ -144,7 +146,7 @@ h3 {
     height: 80vh;
     margin-top: 50px;
     padding: 0;
-    justify-content: space-around;
+    justify-content: end;
     background-image: url("../../img/bg-effects-1024.png");
     background-position: right;
   }

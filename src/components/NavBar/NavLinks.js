@@ -1,16 +1,16 @@
-const NavLinks = ({ className }) => {
+const NavLinks = ({ className, toggleMenu }) => {
   return (
     <ul className={`navLinks ${className}`}>
-      <li>
+      <li onClick={toggleMenu}>
         <a href='#home'>Home</a>
       </li>
-      <li>
+      <li onClick={toggleMenu}>
         <a href='#about'>Sobre</a>
       </li>
-      <li>
+      <li onClick={toggleMenu}>
         <a href='#projects'>Projetos</a>
       </li>
-      <li>
+      <li onClick={toggleMenu}>
         <a href='#contact'>Contato</a>
       </li>
     </ul>
