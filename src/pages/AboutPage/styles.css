@@ -224,6 +224,10 @@
     width: 100%;
   }
 
+  .section_c{
+    padding: 0 20px;
+  }
+
   .foguete{
     height: 300px;
     width: 300px;
