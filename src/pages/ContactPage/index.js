@@ -32,7 +32,7 @@ const ContactPage = () => {
 
         <h2 className="section-title" id="title">Contato</h2>
         <div className="content">
-          <p>Caso tenha interesse em entrar em contato comigo aqui estão mais informações sobre mim aqui está onde você pode me encontrar:</p>{" "}
+          <p>Caso tenha interesse em entrar em contato comigo, aqui estão mais informações sobre mim aqui está onde você pode me encontrar:</p>{" "}
           <div className="social-icons">
             <a href="https://github.com/IagoAlves777" target={"blank"}>
               <img src={github} alt="my github profile"/>
