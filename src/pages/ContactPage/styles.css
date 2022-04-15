@@ -14,7 +14,6 @@
   width: 250px;
 }
 
-
 @media only screen and (min-width: 600px) {
   .contact .section-content {
     display: flex;
@@ -30,5 +29,103 @@
     padding: 0.5rem;
     width: 50%;
     margin: 0.5rem auto 1rem auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .contact{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .astronauta{
+    display: inline-block;
+  }
+  .content{
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  .section-title{
+    margin: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+  .contact{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .astronauta{
+    display: inline-block;
+  }
+  .content{
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  .section-title{
+    margin: 0;
+  }
+
+  .social-icons img{
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+  }  
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+  .contact{
+    display: flex;
+    max-width: 100%;
+    justify-content: end;
+    align-items: center;
+    height: 120h;
+  }
+  .astronauta{
+    display: inline-block;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    text-align: justify;
+    max-width: 50%;
+  }
+
+  .section-title{
+    margin: 0;
+  }
+
+  .social-icons img{
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+  }  
+}
+
+@media (min-width: 1025px){
+
+  #title{
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .content{
+    max-width: 60%;
+    text-align: justify;
+  }
+
+  .social-icons{
+    width: 100%;
   }
 }

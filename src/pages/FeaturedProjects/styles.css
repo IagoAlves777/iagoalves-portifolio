@@ -1,8 +1,3 @@
-.projects .section-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
 
 .projects .section-text {
   font-size: 16px;
@@ -40,3 +35,81 @@
   width: 26px;
 }
 
+@media (min-width: 320px) and (max-width: 480px){
+
+  .projects{
+    padding: 0 20px;
+    padding-top: 130px;
+  }
+
+  .section-title{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .section-content{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .featured-project{
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+  .projects{
+    padding: 130px 20px;
+  }
+
+  .section-title{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .section-content{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .featured-project{
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+  .projects{
+    padding-top: 300px;
+  }
+
+  .section-title{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .section-content{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .featured-project{
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1025px){
+
+  .section-title{
+    margin: 50px;
+  }
+
+  .featured-project{
+    margin: 0 15px;
+  }
+  
+}

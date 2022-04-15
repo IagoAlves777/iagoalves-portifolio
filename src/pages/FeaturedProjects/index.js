@@ -23,16 +23,16 @@ const FeaturedProjects = () => {
             das solicitações do Socket.io.
           </p>
           <div className="technologies">
-            <p>React |</p>
-            <p>Socket.io |</p>
-            <p>Node |</p>
+            <p>React </p>
+            <p>Socket.io </p>
+            <p>Node </p>
             <p>Bootstrap</p>
           </div>
           <div className="project-social">
-            <a href="https://github.com/IagoAlves777/react-tsoro-yematatu">
+            <a href="https://github.com/IagoAlves777/react-tsoro-yematatu" target={"blank"}>
               <img src={github} alt="" />
             </a>
-            <a href="http://goncuk.com/">
+            <a href="http://goncuk.com/" target={"blank"}>
               <img src={link} alt="" />
             </a>
           </div>
@@ -50,17 +50,17 @@ const FeaturedProjects = () => {
             do estado do formulario é feito utilizando context API e reducer.
           </p>
           <div className="technologies">
-            <p>React |</p>
-            <p>Typescript |</p>
+            <p>React </p>
+            <p>Typescript </p>
             <p>Styled Component</p>
-            <p>Context API |</p>
+            <p>Context API </p>
             <p>Reducer</p>
           </div>
           <div className="project-social">
-            <a href="https://github.com/IagoAlves777/multform">
+            <a href="https://github.com/IagoAlves777/multform" target={"blank"}>
               <img src={github} alt="" />
             </a>
-            <a href="https://github.com/IagoAlves777/multform">
+            <a href="https://github.com/IagoAlves777/multform" target={"blank"}>
               <img src={link} alt="" />
             </a>
           </div>
@@ -76,16 +76,16 @@ const FeaturedProjects = () => {
           Projeto com react, Typescript, Styled Components que consome uma API da riot games e tem como objetivo exibir aos player estatísticas sobre eles. Ainda em desenvolvimento
           </p>
           <div className="technologies">
-            <p>React |</p>
-            <p>Typescript |</p>
-            <p>Axios |</p>
-            <p>Styled components |</p>
+            <p>React </p>
+            <p>Typescript </p>
+            <p>Axios </p>
+            <p>Styled components</p>
           </div>
           <div className="project-social">
-            <a href="https://github.com/IagoAlves777/challenging">
+            <a href="https://github.com/IagoAlves777/challenging" target={"blank"}>
               <img src={github} alt="" />
             </a>
-            <a href="https://github.com/IagoAlves777/challenging">
+            <a href="https://github.com/IagoAlves777/challenging" target={"blank"}>
               <img src={link} alt="" />
             </a>
           </div>

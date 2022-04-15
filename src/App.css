@@ -76,7 +76,6 @@ section {
   shape-outside: circle(35%);
 }
 
-/* *************** */
 
 
 
@@ -114,9 +113,7 @@ section {
   border: none;
 }
 
-/* *********************** */
 
-/* Icon Colors */
 .navLogo > img,
 .single-technology img,
 .project-social img,
@@ -136,9 +133,7 @@ section {
     brightness(101%) contrast(103%);
 }
 
-/* ************************ */
 
-/* Media Query */
 
 @media only screen and (min-width: 769px) {
   body {

@@ -102,7 +102,7 @@
     max-width: 100%;
   }
 
-  .section_title{
+  .section-title{
     font-size: 2.5rem;
   }
 
@@ -224,12 +224,16 @@
     width: 100%;
   }
 
+  .section-content{
+    align-items: center;
+  }
+
   .section_c{
     padding: 0 20px;
   }
 
   .foguete{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
   }
 }

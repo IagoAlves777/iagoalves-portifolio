@@ -16,12 +16,11 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <HomePage/>
-      <AboutPage/>
-      {/* 
-      <FeaturedProjects/>
-      <ContactPage/> */}
+      <Navbar />
+      <HomePage />
+      <AboutPage />
+      <FeaturedProjects />
+      <ContactPage />
     </>
   );
 }
