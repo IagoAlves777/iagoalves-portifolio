@@ -8,7 +8,6 @@ const FeaturedProjects = () => {
       <h2 className="section-title" data-aos="zoom-in" data-aos-duration="1500">
         Alguns dos meus projetos
       </h2>
-
       <div className="section-content">
         <div
           className="featured-project"
